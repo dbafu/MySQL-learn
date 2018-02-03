@@ -69,3 +69,5 @@ alter table tbl_user change user_age user_age tinyint(1) not null;
 alter table tbl_user rename user_tbl;
 
 drop table user_tbl;
+
+create schema jsp_db;
